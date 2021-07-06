@@ -31,7 +31,7 @@ h1 {
 }
 .my-pic {
   background-color: rgb(206, 144, 29);
-  border-radius: 40%;
+  border-radius: 30%;
   margin-left: 150px;
   width: 35%;
 }
@@ -51,4 +51,27 @@ h1 {
   letter-spacing: 0.04rem;
   font-weight: 700;
   border-radius: 7%;
+}
+h2 {
+  font-size: 40px;
+}
+.ex {
+  display: flex;
+  width: 100%;
+}
+.ex-item {
+  width: 40%;
+  margin: 5%;
+  padding: 2%;
+  box-shadow: 10px 10px 10px gray;
+}
+#ex-item1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, indigo);
+  border-image-slice: 1;
+}
+#ex-item2 {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, green);
+  border-image-slice: 1;
 }
